@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background: repeating-linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.generator{
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(7, 211, 204, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-style: groove;
+    width: 450px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius:10px;
+}
+div.password{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius:10px;
+    overflow: hidden;
+}
+div.password input{
+    padding: 7px 10px;
+    background: #74d8e3;
+    box-shadow:  5px 5px 10px #2e565b,
+                -5px -5px 10px #baffff;
+    border: none;
+    color:rgb(0, 0, 0);
+}
+button{
+    border-radius: 10px;
+    background: #9cf476;
+    box-shadow:  5px 5px 10px #3e622f,
+                -5px -5px 10px #faffbd;
+    color:rgb(0, 0, 0);
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+div.password button{
+    border-radius:0;
+}
+div.range{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+div.range span{
+    background-color: #192651;
+    padding: 10px;
+    margin-left: 20px;
+    min-width:30px;
+    text-align: center;
+    border-radius: 10px;
+    background: #0046d1;
+    box-shadow:  5px 5px 10px #001c54,
+                -5px -5px 10px #0070ff;    
+}
+div.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+div.options label{
+    display: block;
+    background-color: #e47474;
+    padding: 10px;
+    border-radius: 10px;
+    background: #cf8080;
+    box-shadow:  5px 5px 10px #a16363,
+                -5px -5px 10px #ffb9b9;
+    font-family: sans-serif;
+}
